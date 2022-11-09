@@ -1,0 +1,16 @@
+body {
+    background: $back;
+    color: $text;
+    user-select: none;
+    display: grid;
+    transition: all .5s;
+    background: linear-gradient(to bottom, white, violet);
+    font-family: "Montserrat";
+}
+
+.image {
+    width: 816px;
+    height: 500px;
+    background-size: cover;
+    background-image: url("img/code.jpg");
+}
